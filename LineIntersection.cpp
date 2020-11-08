@@ -5,7 +5,7 @@
 #include "LineIntersection.h"
 #include <iostream>
 
-LineIntersection::LineIntersection(const size_t width, const size_t height, const std::string &title)
+LineIntersection::LineIntersection(size_t width, size_t height, const std::string &title)
 : SFUIBase(width, height, title), mEndPointMouseOver(5), mIsMouseOverEndPoint(false), mIsDraggingEndPoint(false), mSelectedLineSegment(nullptr), mSelectedLineEndPoint(0)
 {
     mEndPointMouseOver.setOrigin(5.0, 5.0);
